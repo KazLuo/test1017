@@ -136,8 +136,13 @@
     <Compile Include="Migrations\202310170946439_add migration.Designer.cs">
       <DependentUpon>202310170946439_add migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202310170943011_create Org.cs" />
+    <Compile Include="Migrations\202310170943011_create Org.Designer.cs">
+      <DependentUpon>202310170943011_create Org.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Members.cs" />
+    <Compile Include="Models\Org.cs" />
     <Compile Include="Models\test1017_Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -197,6 +202,11 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202310170946439_add migration.resx">
       <DependentUpon>202310170946439_add migration.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202310170943011_create Org.resx">
+      <DependentUpon>202310170943011_create Org.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
