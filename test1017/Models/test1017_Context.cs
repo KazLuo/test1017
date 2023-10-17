@@ -16,5 +16,6 @@ namespace test1017.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
+        public virtual DbSet<Members> Members { get; set; }
     }
 }
